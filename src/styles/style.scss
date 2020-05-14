@@ -1,0 +1,124 @@
+$color-grey: #efefef;
+#HomeHero {
+  background-color: #000000;
+}
+#mainMenu {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#home {
+  margin-top: -63px;
+}
+.searchMovieMain {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#flex {
+  padding: 70px 50px 50px 0px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  #flex2 {
+    padding-left: 30px;
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid black;
+  }
+}
+
+.compareMovieMain {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navbar {
+  padding: 0px 0px;
+  #logo {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+}
+#modalOverviewDiv {
+  border-bottom: 1px solid grey;
+  #modalOverview {
+    font-size: 20px;
+  }
+}
+
+.modalRating {
+  font-size: 20px;
+  color: #b33636;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.modalStats {
+  font-size: 12px;
+  margin: 5px 0px;
+  text-align: center;
+}
+#modalImage {
+  margin-top: -50px;
+}
+
+#showModalButton {
+  padding-right: 30px;
+}
+
+.SearchForm {
+  padding-top: 27px;
+  padding-left: 10px;
+  width: 750px;
+}
+.SearchForm2 {
+  padding-top: 27px;
+  padding-left: 10px;
+  width: 400px;
+}
+#searchbutton {
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.Loading {
+  padding: 100px;
+  text-align: center;
+}
+
+.MoviesIndex {
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .card-header {
+    background-color: lighten(#ffd539, 10%);
+  }
+  .card-image img {
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  .card-content {
+    border-top: 1px solid $color-grey;
+  }
+}
